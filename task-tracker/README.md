@@ -1,4 +1,43 @@
 # React + Vite
+Backend: Node.js with Express
+
+Database: MongoDB
+
+you have to install following libraries for run code: npm i bootstrap bootstrap-icons react-cookie react-router-dom axios formik etc.
+
+for backend server install :npm init-y mongodb express cors etc.  go to server directory and use command node api.js for start server-side.
+
+📁 Project Structure
+The task-tracker directory includes:
+
+Backend Server: app.js (or server.js)
+
+Dependencies: package.json
+
+Configuration: MongoDB connection string and environment variables
+
+🛠️ Features
+User Management: Register users with details like username, password, email, and country.
+
+Task Management: Add, edit, delete, and retrieve tasks associated with specific users.
+
+API Endpoints:
+
+GET /users: Fetch all users.
+
+GET /tasks: Fetch all tasks.
+
+GET /get-task/:id: Fetch tasks for a specific user by ID.
+
+POST /register-user: Register a new user.
+
+POST /add-task: Add a new task.
+
+PUT /edit-task/:id: Edit an existing task.
+
+DELETE /delete-task/:id: Delete a task.
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
